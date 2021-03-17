@@ -1,0 +1,35 @@
+// For image design
+ion-img {
+  height: 150px;
+}
+.ion-no-padding{
+text-size-adjust: 38px;
+ text-decoration: double;
+  text-align: center;
+}
+.sfondologin{
+  --background: url(../../../assets/patternritmo.png) no-repeat center/cover fixed;
+}
+
+// For Form
+form {
+  padding-top: 28px;
+  ion-item {
+    --padding-start: 0;
+    --background: var(--ion-background-color);
+    ion-label {
+      color: rgba(var(--ion-text-color-rgb), 0.5);
+    }
+    &:nth-child(3) {
+      height: 33px;
+      ion-label {
+        color: red;
+      }
+    }
+  }
+  ion-button {
+    text-transform: uppercase;
+  }
+}
+
+// For Login, Facebook, Register Buttons
